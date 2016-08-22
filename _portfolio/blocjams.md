@@ -34,7 +34,7 @@ I created three files for the collection page. The first two were the basic HTML
 
 The third file that I created was the Javascript file, in which I used jQuery to formulate some of the code. I created a template that would be used to display the information of all albums in an orderly fashion. I then used ```$(window).load``` method to load the album covers as thumbnails.
 
-{% highlight Javascript}
+{% highlight Javascript %}
 $(window).load(function() {
     var $collectionContainer = $('.album-covers');
     $collectionContainer.empty();
@@ -44,7 +44,7 @@ $(window).load(function() {
         $collectionContainer.append($newThumbnail);
     }
 });
-{% endhighlight}
+{% endhighlight %}
 
 
 ## Results
